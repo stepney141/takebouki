@@ -1,0 +1,25 @@
+BODY {
+	background-color: white;
+	color: #6565b4;
+}
+
+.daytitle {
+	background-color: #6565b4;
+	color: white;
+	font-weight: bold;
+}
+
+.daybody {
+	font-size: x-small;
+}
+
+HR {
+	color: #6565b4;
+	height: 1px;
+}
+@media screen and (min-width: 0px) and (max-device-width: 550px) {
+	table.diary { width: 100%; }
+}
+@media screen and (min-width: 551px) {
+	table.diary { width: 550px; }
+}
